@@ -10,12 +10,12 @@ class App extends Component {
   constructor(props){
     super(props);
     var config={
-      apiKey: "AIzaSyB-q68uR3B1nOeRFNnB46PauNSXzlRAEc4",
-      authDomain: "react-turbo-11c1c.firebaseapp.com",
-      databaseURL: "https://react-turbo-11c1c.firebaseio.com",
-      projectId: "react-turbo-11c1c",
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
       storageBucket: "",
-      messagingSenderId: "1097052131053"
+      messagingSenderId: ""
     };
     firebase.initializeApp(config);
 
